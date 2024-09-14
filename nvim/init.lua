@@ -1,7 +1,6 @@
 -- color scheme
 vim.cmd.colorscheme 'default'
 
--- set
 vim.o.expandtab = true
 vim.o.ignorecase = true
 vim.o.incsearch = true
