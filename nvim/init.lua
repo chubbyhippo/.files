@@ -35,7 +35,6 @@ vim.keymap.set("n", "=", "<c-w>5+")
 vim.keymap.set("n", "_", "<c-w>25<")
 vim.keymap.set("n", "+", "<c-w>25>")
 
--- window splitting
 vim.keymap.set("n", "<c-h>", "<c-w><c-h>")
 vim.keymap.set("n", "<c-j>", "<c-w><c-j>")
 vim.keymap.set("n", "<c-k>", "<c-w><c-k>")
