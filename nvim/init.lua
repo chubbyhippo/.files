@@ -46,6 +46,7 @@ vim.keymap.set("n", "<leader>ap", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
 
 vim.keymap.set("n", "<tab>", "<cmd>tabn<cr>")
+vim.keymap.set("n", "<s-tab>", "<cmd>tabp<cr>")
 -- status line
 vim.o.statusline = [[%<%f %h%m%r %y%=%{v:register} %-14.(%l,%c%V%) %P]]
 
