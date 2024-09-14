@@ -13,7 +13,9 @@ vim.o.softtabstop = 4
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.tabstop = 4
-vim.o.clipboard = 'unnamedplus'
+vim.schedule(function()
+  vim.o.clipboard = 'unnamedplus'
+end)
 vim.o.breakindent = true
 vim.o.undofile = true
 vim.o.signcolumn = 'yes'
