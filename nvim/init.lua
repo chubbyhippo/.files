@@ -30,7 +30,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
--- window sizing
 vim.keymap.set("n", "-", "<c-w>5-")
 vim.keymap.set("n", "=", "<c-w>5+")
 vim.keymap.set("n", "_", "<c-w>25<")
