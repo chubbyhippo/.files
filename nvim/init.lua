@@ -1,4 +1,3 @@
--- color scheme
 vim.cmd.colorscheme 'default'
 
 vim.o.expandtab = true
